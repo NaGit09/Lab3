@@ -1,0 +1,183 @@
+/* grid programming css */
+.wrap {
+    background-color: #0F172A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height: 700px;
+}
+.title {
+    font-size: 50px;
+    color: white;
+}
+.container {
+    padding-top: 100px;
+}
+.grid-item {
+    width: 150px;
+    height: 50px;
+    border: 1px solid gray ;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin: 20px;
+}
+.grid-item > i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+.Swift {
+    background-color: #EB4E3880;
+}
+.Js {
+    background-color: #ebd94e;
+}
+.Golang {
+    background-color: #4ba4cc;
+}
+.Python {
+    
+    background-color: #436b97;
+}
+.Java {
+    background-color: #d33731;
+}
+.Rust {
+    background-color: black;
+}
+.PHP {
+    
+background-color: #7477a9;
+}
+.Flutter {
+    background-color: #58aee9;
+}
+.React {
+    background-color: #ba6993;
+}
+.Vue {
+    background-color: #4aa181;
+}
+/* tài liệu học tập !  */
+.flex-row {
+    display: flex;
+
+}
+.flex-col {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* justify-content: space-around; */
+}
+.flex-col a {
+    font-size: 30px;
+    text-decoration: none;
+}
+.wrap-content {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.Title {
+    font-size: 40px;
+    margin: 20px 0;
+    color: white;
+    text-align: center;
+
+}
+.menu {
+    width: 20%;
+}
+.menu  > ul {
+    list-style: none    ;
+}
+.menu   ul  button {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    border: none    ;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 250px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.338);
+    border-radius: 16px;
+}
+.Title {
+font-size: 40px;    
+color: black;
+}
+
+.menu   ul button:hover {
+    background-color: #58aee9;
+    color: white;
+}
+.display {
+    width: 80%;
+    height: 600px;
+}
+.back {
+    height: 80px;
+    position: relative;
+}
+.back button {
+    margin: 20px;
+    position: absolute;
+    border: none;
+    height: 50px;
+    width: 100px;
+    background-color: #4ba4cc;
+    border-radius: 16px;
+    right: 0;
+}
+/* modal property */
+
+/* The Modal (background) */
+.modal , .modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 500px;
+  }
+  .modal-content >  h2 {
+    font-size: 40px;
+  }
+  .modal-content p {
+    margin-top: 30px;
+  }
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 58px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #ff0000;
+    text-decoration: none;
+    cursor: pointer;
+  }
